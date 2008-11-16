@@ -1,5 +1,0 @@
-// CSS Browser Selector   v0.2.3m
-// License:               http://creativecommons.org/licenses/by/2.5/
-// Author:                Rafael Lima (http://rafael.adm.br)
-// Contributors:          http://rafael.adm.br/css_browser_selector#contributors
-(function(){var ua=navigator.userAgent.toLowerCase(),is=function(t){return ua.indexOf(t)!=-1;},h=document.getElementsByTagName('html')[0],b=(!(/opera|webtv/i.test(ua))&&/msie (\d)/.test(ua))?((is('mac')?'ieMac ':'')+'ie ie'+RegExp.$1):is('gecko/')?'gecko':is('opera')?'opera':is('konqueror')?'konqueror':is('applewebkit/')?'webkit safari':is('mozilla/')?'gecko':'',os=(is('x11')||is('linux'))?' linux':is('mac')?' mac':is('win')?' win':'',c=b+os+' js',webkitVersion=parseInt((navigator.userAgent.match(/AppleWebKit\/(\d+)/)||[null,0])[1]);if(!!webkitVersion)c+=' '+(webkitVersion<412?'safari1':(webkitVersion>412&&webkitVersion<500)?'safari2':(webkitVersion>500)?'safari3':'');if(is('firefox/3'))c+=' firefox3';if(is('firefox/2'))c+=' firefox2';h.className+=h.className?' '+c:c;})();
