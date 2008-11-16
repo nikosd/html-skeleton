@@ -1,3 +1,22 @@
-A barebones skeleton for html sites.
+== Description
 
-Based on html-skeleton by Harald Martin (http://github.com/haraldmartin/html-skeleton/tree/master).
+A barebones skeleton for html sites. Just don't do it every time!
+
+== Features
+
+* XHTML 1.0 Transitional DOCTYPE
+* YUI Reset CSS (http://developer.yahoo.com/yui/reset).
+* CSS Browser Selector JS (http://rafael.adm.br/css_browser_selector).
+* IE PNG fix (just add a .png class on the element you wish the fix to be applied).
+
+== Alternatives
+
+* Checkout the 'bare' branch for an even lighter skeleton with less features but more freedom ;) 
+
+== License
+
+Are you kidding?
+
+== Contributions & Remarks
+
+Based on html-skeleton by Harald Martin (http://github.com/haraldmartin/html-skeleton).
